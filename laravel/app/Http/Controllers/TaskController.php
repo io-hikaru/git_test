@@ -35,9 +35,6 @@ class TaskController extends Controller
             'task_name' => 'required|max:100',
         ]);
 
-        // テスト追加
-        // 追加２
-
         // $rules = [
         //     'task_name' => 'required|max:100',
         // ];
