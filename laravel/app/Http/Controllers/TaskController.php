@@ -34,6 +34,9 @@ class TaskController extends Controller
         $request->validate([
             'task_name' => 'required|max:100',
         ]);
+
+        // テスト追加
+
         // $rules = [
         //     'task_name' => 'required|max:100',
         // ];
